@@ -108,7 +108,7 @@ namespace KinderGartenApp.Controllers
             return View(sASignUp);
         }
 
-        // POST: SASignUps/Delete/5
+        // POST: SASignUps/Delete/
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(string id)
